@@ -50,7 +50,7 @@ driver.find_element_by_xpath(xpath).click()
 # In[6]:
 
 
-pyperclip.copy('2833612')
+pyperclip.copy('')
 time.sleep(3)
 xpath2 = '//*[@id="id"]'
 driver.find_element_by_xpath(xpath2).send_keys(Keys.CONTROL, 'v')
@@ -59,7 +59,7 @@ driver.find_element_by_xpath(xpath2).send_keys(Keys.CONTROL, 'v')
 # In[7]:
 
 
-pyperclip.copy('seller1004@')
+pyperclip.copy('')
 time.sleep(3)
 xpath3 = '//*[@id="pw"]'
 driver.find_element_by_xpath(xpath3).send_keys(Keys.CONTROL, 'v')
